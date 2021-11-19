@@ -1,0 +1,113 @@
+/* About page styles */
+.about-header { font-size: 25px; font-weight: bold; padding: 15px 0; }
+.top-section {padding: 3rem 0; background-image: linear-gradient(160deg, #fff 20%, #5944b017 100%), url('../../images/bg.svg'); background-repeat: no-repeat; background-size: cover; vertical-align: middle}
+.desc-text {font-size: 16px; line-height: 1.5rem; font-weight: 400}
+.top-action-btn {background-color: #5944b0; color: #fff; font-weight: bold; border-radius: 0; text-align: center; border: 1px solid #5944b0; border-radius: 4px }
+.top-action-btn:hover {background-color: #fff; color: #5944b0}
+.top-left-img { margin-bottom: 0;  margin-top: 0;  max-width: 100%; width: auto; }
+.about-nav .bg-light { background-color: #5944b0 !important; }
+.video-embed iframe {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    /* -webkit-box-shadow: -10px 0px 13px -7px #5944b0, 10px 0px 13px -7px #5944b0, 5px 5px 15px 5px rgba(89, 68, 176, 0);
+    box-shadow: -10px 0px 13px -7px #5944b0, 10px 0px 13px -7px #5944b0, 5px 5px 15px 5px rgba(89, 68, 176, 0); */
+}
+.how-to-use h2 { font-size: 25px; font-weight: bold }
+.action-section {
+    padding: 5rem 0;
+    background: linear-gradient(180deg, #672c8f 0%, #5944b0 100%);
+}
+.btn-white-outline {border: 2px solid #fff; border-radius: 4px; color: #5944b0; font-weight: 600; background: #fff}
+.btn-white-outline:hover { background-color: #eee; color: #5944b0; border: 2px solid #eee; -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); }
+.exp-section { padding: 3rem 10px; }
+.exp-section img {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    -webkit-box-shadow: 0px 10px 13px -7px rgba(248, 248, 248, 0.562), 5px 5px 15px 5px rgba(248, 248, 248, .5);
+    box-shadow: 0px 10px 13px -7px rgba(248, 248, 248,0.562), 5px 5px 15px 5px rgba(248, 248, 248, .5);
+}
+.exp-section img:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.exp-section .top { margin-bottom: 2rem; }
+.about-nav { background-color: #5944b0; box-sizing: border-box; }
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+/* === CSS for 404 page ===  */
+
+.goback {background-color: #5944b0; color: #fff; font-weight: bold; border-radius: 0; text-align: center; border: 1px solid #5944b0; border-radius: 4px }
+.goback:hover {background-color: #fff; color: #5944b0}
+.browse-transporter{background-color: #814105; color: #fff; font-weight: bold; border-radius: 0; text-align: center; border: 1px solid #814105; border-radius: 4px }
+.browse-transporter:hover{background-color: #a85404; color: #fff; border: 1px solid #a85404;}
+/* .error-404 .left-image{ height:350px;} */
+.error-404 {align-items: center; align-content: center; justify-content: center; margin-top: 7rem;}
+.error-404 .image-holder { height: 250px; width: 100%}
+.error-404 .image-holder .left-image { height: 100%; width: 100%; object-fit: contain }
+/* .bottom-section .filter-block-slide {justify-content: left;} */
+.bottom-section .btn-filter-town { background-color: #5944b0; color: #fff;}
+.bottom-section .btn-filter-town .btn-icon {color: #fff;}
+@media (min-width: 1281px) { }
+  /*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+  @media (min-width: 1025px) and (max-width: 1280px) { }
+
+  /*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) {}
+
+  /*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+  /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+  @media (min-width: 481px) and (max-width: 767px) {}
+
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .top-action-btn {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .bottom .first {
+        order: 2
+    }
+    .bottom .second {
+        order: 1;
+    }
+    .exp-section .top {
+        margin-bottom: 2rem;
+    }
+
+    .btn-filter-town {
+        width: 90px;
+    }
+  }

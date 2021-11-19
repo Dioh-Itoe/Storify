@@ -1,0 +1,21 @@
+.action-links{
+    display: flex;
+    justify-content: space-around;
+}
+.action-links li{
+    list-style-type: none;
+    padding: 3px;
+}
+.action-links li a{
+    font-size: 20px;
+    /* padding: 2px; */
+    border-right: 2px solid rgb(201, 194, 194);
+    /* justify-content: space-between; */
+
+}
+
+/* .card{ height: 40vh; border: 1px solid rgb(58, 57, 57);margin-top: 1px;position: relative;}
+ .card .dots3{position: absolute; top: 2px; right: 10px;}
+ .card .dots3 div{background: none; border: 0px;margin: 0px;}
+ .card .dots3 div ul {list-style-type: none;}
+ .card .dots3 div ul li a:hover{text-decoration: none;} */

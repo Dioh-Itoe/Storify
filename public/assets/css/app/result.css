@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica&family=Luckiest+Guy&display=swap');
+.page-title-sub {font-family: 'Economica', sans-serif;}
+.rst-header {font-size: 1.3rem;font-family: 'Roboto', sans-serif;}
+.except {font-family: 'Roboto', sans-serif;color: #a85404;}
+a.list-group-item {border-top: .3px solid #ddd;border-left: transparent;border-right: transparent;border-bottom: transparent;}
+.shadow {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
+.address-bar {padding-right: 5px;}
+.address-bar::after {content: '|';color: #333;}
+.address-bar:last-child::after {content: '';}
+.card-brand-bg {background-color: #5944b0;color: #fff;border: transparent;border-radius: 4px;}
+.card-brand-bg a {color: #fff;}
+.real-price {color: #fff;font-size: 1.5rem;font-weight: 600;}
+.card-slider {border: 2px solid #5944b0;border-radius: 4px;}
+.card-slider img {border-radius: 4px;}
+.carousel-control-next-icon, .carousel-control-prev-icon {background-color: #5944b0;border-radius: 50%;padding: 10px;}
+.btn-action {background-color: #5944b0;color: #fff;}
+.btn-action-whatsapp {background-color: #128c7e;color: #fff;}
+.modal-dialog {min-height: calc(100vh - 60px);display: flex;flex-direction: column;justify-content: center;overflow: auto;}
+.modal-bg-brand {border: 2px solid #5944b0;}
+.modal-bg-brand .close span {color: #fff;}
+.modal-bg-brand .modal-header {border-bottom: transparent;background-color: #5944b0;color: #fff; border-radius: 0;}
+.card-horizontal {display: flex;flex: 1 1 auto;}
+/* .image-holder {
+    height: 150px;
+    background-color: #5944b0;
+} */
+.image-holder img { height: 100%; width: 100%; object-fit: cover; -webkit-filter: sepia(50%);  filter: sepia(50%);}
+.image-holder img:hover { -webkit-filter: grayscale(10%);  filter: grayscale(10%); -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out; }
+.single-item { margin-bottom: 30px; border: 0.5px solid #eee;}
+.footer-section {padding: 2px 0 0 0;border: none;background-color: #fff;}
+.action-img-holder img {height: 100%;width: 100%;object-fit: cover;border-radius: 5px;}
+.action-img-holder {height: 200px;}
+.search-hero {background-image: linear-gradient(to bottom, rgba(89, 68, 176, 0.5), rgba(89, 68, 176, 0.5) ,rgba(255, 255, 255, 0.157)), url('../../images/keke.jpg');
+    background-size: cover;background-repeat: no-repeat;background-position: bottom;}
+@media(max-width: 768px) {
+    .modal-dialog {min-height: calc(100vh - 20px);}
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {}
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .rst-card-mobile {padding: 0;}
+    .result-text {padding-top: 0 !important;}
+    .modal-contact {padding: 10px !important;}
+    .modal-rst-phone {font-size: 1.3rem;}
+}

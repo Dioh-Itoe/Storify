@@ -1,0 +1,14 @@
+.icon-lg { font-size: 3rem }
+.card-count { font-size: 2rem; font-weight: 500; line-height: 2.5rem }
+.bottom-pannel { border-top: 2px solid #5944b0; padding: 10px; background-color: #fff; margin-top: 10px; }
+/* CREATE FORM */
+.form-cotainer { padding: 10px; background-color: #fff; /* border: 1px solid #5944b0 */ }
+.legend { border: 1px solid #5944b0 }
+.action-icon { font-size: 2rem; }
+.left-bar { background-color: #5944b0; min-height: 100vh; padding: 0rem 0 0 3rem }
+.left-bar ul {padding-left: 0; margin-left: 0}
+.left-bar ul li { list-style-type: none; padding: 20px;}
+.left-bar ul li:hover, .left-bar ul li.active { background-color: #fff;}
+.left-bar ul li:hover a, .left-bar ul li.active a { color: #333 }
+.left-bar ul li a {color: #fff; font-size: 1.2rem;}
+.dropify-wrapper {border: 2px solid #5944b0 !important}
