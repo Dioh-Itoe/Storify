@@ -20,7 +20,6 @@
             <span>Dashboard</span></a>
     </li>
 
-
     <hr class="sidebar-divider">
 
     <!-- Heading -->
@@ -32,7 +31,8 @@
     <li class="nav-item active">
         <a class="nav-link" href="{{ route('index') }}">
             <i class="fa fa-blog"></i>
-            <span>Blogs/Stories</span></a>
+            <span>Blogs/Stories</span>
+        </a>
     </li>
 
     <!-- Nav Item - Tables -->
@@ -111,7 +111,7 @@
                 @endphp
                 <tr>
                     <th scope="row">{{$i}}</th>
-                    <td>{{ $story->title }}</td>
+                    <td>{{ ucfirst($story->title) }}</td>
                     <td>{{ Str::words($story->body, 15) }}</td>
                     <td>{{  $story->status == 1 ? 'On' : 'Off' }}</td>
                     <td>
@@ -159,8 +159,6 @@
                 @endforeach
                 @endif
             </tbody>
-            
-            
         </table>
     </div>
 </div>

@@ -20,15 +20,12 @@
             <span>Dashboard</span></a>
     </li>
 
-
     <hr class="sidebar-divider">
 
     <!-- Heading -->
     <div class="sidebar-heading">
         Interface
     </div>
-
-
 
     <!-- Nav Item - Charts -->
     <li class="nav-item active">
@@ -120,8 +117,8 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <button class="btn btn-primary btn-lg">Save</button>
+            <div class="form-group">
+                <button class="btn btn-primary col-md-12 btn-lg">Save</button>
             </div>
     </form>
 </div>
