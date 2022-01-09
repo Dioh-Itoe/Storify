@@ -12,9 +12,9 @@
 @section('content')
     <div class="container">
         <div class="col-md-10 col-md-offset-2">
-            <h1>{{ $story->title }}</h1>
+            <h1>{{ ucfirst($story->title) }}</h1>
             <hr class="m-0 p-0">
-            <a href="#">{{ $story->category->name }}</a>
+            <a href="#">{{ ucfirst($story->category->name) }}</a>
         </div>
         <div class="col-md-10 col-md-offset-2">
             <img src="{{ json_decode($story['featured_image'])[1] ?? 'https://media.sproutsocial.com/uploads/2019/09/how-to-write-a-blog-post.svg' }}" alt="Featured Image" height="500px" width="100%">
@@ -99,7 +99,7 @@
                 </div>
             </form>
             @endif
-            {{-- stop check if user is authenticated --}}
+            {{-- stop check if user is authenticated or not--}}
         </div>
     </div>
 @endsection

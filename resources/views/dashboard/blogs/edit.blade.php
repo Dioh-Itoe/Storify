@@ -20,15 +20,12 @@
             <span>Dashboard</span></a>
     </li>
 
-
     <hr class="sidebar-divider">
 
     <!-- Heading -->
     <div class="sidebar-heading">
         Interface
     </div>
-
-
 
     <!-- Nav Item - Charts -->
     <li class="nav-item active">
@@ -64,7 +61,7 @@
             <div class="form-row">
                 <div class="form-group col-md-9">
                     <label for="title">Title</label>
-                    <input type="text" name="title" value="{{ $story->title }}" class="form-control @error('title') is-invalid @enderror" autocomplete="off" placeholder="Title">
+                    <input type="text" name="title" value="{{ ucfirst($story->title) }}" class="form-control @error('title') is-invalid @enderror" autocomplete="off" placeholder="Title">
                     @error('title')
                         <p class="text-danger">{{ $message }}</p>
                     @enderror
@@ -127,8 +124,8 @@
                     </div>
                 </div>
             </div>
-            <div>
-                <button class="btn btn-primary btn-lg">Save</button>
+            <div class="form-row">
+                    <button class="btn btn-primary col-md-12 btn-lg">Save</button>
             </div>
     </form>
 </div>
